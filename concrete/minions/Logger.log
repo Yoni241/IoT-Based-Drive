@@ -1,0 +1,33 @@
+Tue May 13 12:39:03 2025
+=> Reactor initialized: DEBUG src/reactor.cpp 11
+
+Tue May 13 12:39:03 2025
+=> Registering FD: 5, Mode: 0: INFO src/reactor.cpp 19
+
+Tue May 13 12:39:03 2025
+=> Successfully registered FD: 5: INFO src/reactor.cpp 31
+
+Tue May 13 12:39:03 2025
+=> Reactor Running: INFO src/reactor.cpp 104
+
+Tue May 13 12:39:03 2025
+=> Pushing FDs to listen vector: DEBUG src/reactor.cpp 53
+
+Tue May 13 12:39:03 2025
+=> Added FD: 5, Mode: 0: DEBUG src/reactor.cpp 61
+
+Tue May 13 12:42:20 2025
+=> Activating Callbacks: DEBUG src/reactor.cpp 67
+
+Tue May 13 12:42:20 2025
+=> Checking FD: 5, Mode: 0: DEBUG src/reactor.cpp 75
+
+Tue May 13 12:42:20 2025
+=> Executing callback for FD: 5: DEBUG src/reactor.cpp 82
+
+Tue May 13 12:42:21 2025
+=> Pushing FDs to listen vector: DEBUG src/reactor.cpp 53
+
+Tue May 13 12:42:21 2025
+=> Added FD: 5, Mode: 0: DEBUG src/reactor.cpp 61
+

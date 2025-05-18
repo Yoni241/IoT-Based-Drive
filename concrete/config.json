@@ -1,0 +1,71 @@
+{
+    "MasterSide": 
+    {
+        "master_ip": "127.0.0.1",
+        "nbd_master_port": "4950",
+        "udp_master_port": "4951",
+        "plug_and_play_path": "/home/yoni/git/projects/final_project/framework/plugAndPlay",
+        "dir_path": "/dev/nbd0",
+        "total_drive_mem_in_bytes": 12582912
+    },
+
+    "MinionsData": 
+    {
+        "number_of_minions": 3,
+        "number_of_backups": 2,
+        "minion_memory_size_in_bytes": 8388608,
+        "plug_and_play_path": "/home/yoni/git/projects/final_project/framework/plugAndPlay",
+
+        "tcp_minion":
+        {
+            "amount": 3,
+            "data":
+            [
+                { "ip": "127.0.0.1", "port": "5011" },
+                { "ip": "127.0.0.1", "port": "5012" },
+                { "ip": "127.0.0.1", "port": "5013" }
+            ]
+        },
+
+        "udp_minion":
+        {
+            "amount": 3,
+            "data":
+            [
+                { "ip": "127.0.0.1", "port": "6011", "memory_file": "/home/yoni/git/projects/final_project/concrete/minions/minion_udp_1_memory.dat", "size": 8388608 },
+                { "ip": "127.0.0.1", "port": "6012", "memory_file": "/home/yoni/git/projects/final_project/concrete/minions/minion_udp_2_memory.dat", "size": 8388608 },
+                { "ip": "127.0.0.1", "port": "6013", "memory_file": "/home/yoni/git/projects/final_project/concrete/minions/minion_udp_3_memory.dat", "size": 8388608 }
+            ]
+        },
+
+        "bluetooth_minion":
+        {
+            "amount": 2,
+            "data":
+            [
+                { "deviceAddress": "00:1A:7D:DA:71:13" },
+                { "deviceAddress": "00:1A:7D:DA:71:14" }
+            ]
+        }
+    },
+
+    "Commands": 
+    {
+        "_comment": "check_response_interval -> in millisec",
+        "Read":
+        {
+            
+            "response_threshold": 5
+        },
+        "Write":
+        {
+            
+            "response_threshold": 5
+        }
+    },
+
+    "Logger": 
+    {
+        "log_file_path": "logger.txt"
+    }
+}

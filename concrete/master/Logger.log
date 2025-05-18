@@ -1,0 +1,216 @@
+Tue May 13 12:42:18 2025
+=> Reactor initialized: DEBUG src/reactor.cpp 11
+
+Tue May 13 12:42:18 2025
+=> Registering FD: 5, Mode: 0: INFO src/reactor.cpp 19
+
+Tue May 13 12:42:18 2025
+=> Successfully registered FD: 5: INFO src/reactor.cpp 31
+
+Tue May 13 12:42:18 2025
+=> Registering FD: 3, Mode: 0: INFO src/reactor.cpp 19
+
+Tue May 13 12:42:18 2025
+=> Successfully registered FD: 3: INFO src/reactor.cpp 31
+
+Tue May 13 12:42:18 2025
+=> Reactor Running: INFO src/reactor.cpp 104
+
+Tue May 13 12:42:18 2025
+=> Pushing FDs to listen vector: DEBUG src/reactor.cpp 53
+
+Tue May 13 12:42:18 2025
+=> Added FD: 3, Mode: 0: DEBUG src/reactor.cpp 61
+
+Tue May 13 12:42:18 2025
+=> Added FD: 5, Mode: 0: DEBUG src/reactor.cpp 61
+
+Tue May 13 12:42:20 2025
+=> Activating Callbacks: DEBUG src/reactor.cpp 67
+
+Tue May 13 12:42:20 2025
+=> Checking FD: 5, Mode: 0: DEBUG src/reactor.cpp 75
+
+Tue May 13 12:42:20 2025
+=> Executing callback for FD: 5: DEBUG src/reactor.cpp 82
+
+Tue May 13 12:42:20 2025
+=> Pushing FDs to listen vector: DEBUG src/reactor.cpp 53
+
+Tue May 13 12:42:20 2025
+=> Added FD: 3, Mode: 0: DEBUG src/reactor.cpp 61
+
+Tue May 13 12:42:20 2025
+=> Added FD: 5, Mode: 0: DEBUG src/reactor.cpp 61
+
+Tue May 13 12:42:20 2025
+=> AsyncInjectionTask: Ctor: DEBUG src/async_injection.cpp 45
+
+Tue May 13 12:42:20 2025
+=> AsyncInjection: Ctor: DEBUG src/async_injection.cpp 13
+
+Tue May 13 12:42:20 2025
+=> Scheduler::AddTask: INFO src/scheduler.cpp 34
+
+Tue May 13 12:42:20 2025
+=> Scheduler::OnTimer: ERROR src/scheduler.cpp 62
+
+Tue May 13 12:42:20 2025
+=> AsyncInjectionTask: Execute: DEBUG src/async_injection.cpp 51
+
+Tue May 13 12:42:20 2025
+=> AsyncInjection: Perform: DEBUG src/async_injection.cpp 21
+
+Tue May 13 12:42:20 2025
+=> AsyncInjection: Rescheduling task: DEBUG src/async_injection.cpp 35
+
+Tue May 13 12:42:20 2025
+=> Scheduler::AddTask: INFO src/scheduler.cpp 34
+
+Tue May 13 12:42:20 2025
+=> Scheduler::OnTimer: ERROR src/scheduler.cpp 62
+
+Tue May 13 12:42:20 2025
+=> AsyncInjectionTask: Execute: DEBUG src/async_injection.cpp 51
+
+Tue May 13 12:42:20 2025
+=> AsyncInjection: Perform: DEBUG src/async_injection.cpp 21
+
+Tue May 13 12:42:20 2025
+=> AsyncInjection: Rescheduling task: DEBUG src/async_injection.cpp 35
+
+Tue May 13 12:42:20 2025
+=> Scheduler::AddTask: INFO src/scheduler.cpp 34
+
+Tue May 13 12:42:20 2025
+=> Scheduler::OnTimer: ERROR src/scheduler.cpp 62
+
+Tue May 13 12:42:20 2025
+=> AsyncInjectionTask: Execute: DEBUG src/async_injection.cpp 51
+
+Tue May 13 12:42:20 2025
+=> AsyncInjection: Perform: DEBUG src/async_injection.cpp 21
+
+Tue May 13 12:42:20 2025
+=> AsyncInjection: Rescheduling task: DEBUG src/async_injection.cpp 35
+
+Tue May 13 12:42:20 2025
+=> Scheduler::AddTask: INFO src/scheduler.cpp 34
+
+Tue May 13 12:42:20 2025
+=> Scheduler::OnTimer: ERROR src/scheduler.cpp 62
+
+Tue May 13 12:42:20 2025
+=> AsyncInjectionTask: Execute: DEBUG src/async_injection.cpp 51
+
+Tue May 13 12:42:20 2025
+=> AsyncInjection: Perform: DEBUG src/async_injection.cpp 21
+
+Tue May 13 12:42:20 2025
+=> AsyncInjection: Rescheduling task: DEBUG src/async_injection.cpp 35
+
+Tue May 13 12:42:20 2025
+=> Scheduler::AddTask: INFO src/scheduler.cpp 34
+
+Tue May 13 12:42:20 2025
+=> Scheduler::OnTimer: ERROR src/scheduler.cpp 62
+
+Tue May 13 12:42:20 2025
+=> AsyncInjectionTask: Execute: DEBUG src/async_injection.cpp 51
+
+Tue May 13 12:42:20 2025
+=> AsyncInjection: Perform: DEBUG src/async_injection.cpp 21
+
+Tue May 13 12:42:20 2025
+=> AsyncInjection: Task completed, self-deleting: DEBUG src/async_injection.cpp 28
+
+Tue May 13 12:42:21 2025
+=> Activating Callbacks: DEBUG src/reactor.cpp 67
+
+Tue May 13 12:42:21 2025
+=> Checking FD: 3, Mode: 0: DEBUG src/reactor.cpp 75
+
+Tue May 13 12:42:21 2025
+=> Executing callback for FD: 3: DEBUG src/reactor.cpp 82
+
+Tue May 13 12:42:21 2025
+=> Pushing FDs to listen vector: DEBUG src/reactor.cpp 53
+
+Tue May 13 12:42:21 2025
+=> Added FD: 3, Mode: 0: DEBUG src/reactor.cpp 61
+
+Tue May 13 12:42:21 2025
+=> Added FD: 5, Mode: 0: DEBUG src/reactor.cpp 61
+
+Tue May 13 12:42:21 2025
+=> Activating Callbacks: DEBUG src/reactor.cpp 67
+
+Tue May 13 12:42:21 2025
+=> Checking FD: 3, Mode: 0: DEBUG src/reactor.cpp 75
+
+Tue May 13 12:42:21 2025
+=> Executing callback for FD: 3: DEBUG src/reactor.cpp 82
+
+Tue May 13 12:42:21 2025
+=> Pushing FDs to listen vector: DEBUG src/reactor.cpp 53
+
+Tue May 13 12:42:21 2025
+=> Added FD: 3, Mode: 0: DEBUG src/reactor.cpp 61
+
+Tue May 13 12:42:21 2025
+=> Added FD: 5, Mode: 0: DEBUG src/reactor.cpp 61
+
+Tue May 13 12:42:37 2025
+=> Activating Callbacks: DEBUG src/reactor.cpp 67
+
+Tue May 13 12:42:37 2025
+=> Checking FD: 5, Mode: 0: DEBUG src/reactor.cpp 75
+
+Tue May 13 12:42:37 2025
+=> Executing callback for FD: 5: DEBUG src/reactor.cpp 82
+
+Tue May 13 12:42:37 2025
+=> Pushing FDs to listen vector: DEBUG src/reactor.cpp 53
+
+Tue May 13 12:42:37 2025
+=> Added FD: 3, Mode: 0: DEBUG src/reactor.cpp 61
+
+Tue May 13 12:42:37 2025
+=> Added FD: 5, Mode: 0: DEBUG src/reactor.cpp 61
+
+Tue May 13 12:42:37 2025
+=> Activating Callbacks: DEBUG src/reactor.cpp 67
+
+Tue May 13 12:42:37 2025
+=> Checking FD: 5, Mode: 0: DEBUG src/reactor.cpp 75
+
+Tue May 13 12:42:37 2025
+=> Executing callback for FD: 5: DEBUG src/reactor.cpp 82
+
+Tue May 13 12:42:37 2025
+=> Pushing FDs to listen vector: DEBUG src/reactor.cpp 53
+
+Tue May 13 12:42:37 2025
+=> Added FD: 3, Mode: 0: DEBUG src/reactor.cpp 61
+
+Tue May 13 12:42:37 2025
+=> Added FD: 5, Mode: 0: DEBUG src/reactor.cpp 61
+
+Tue May 13 12:42:37 2025
+=> AsyncInjectionTask: Ctor: DEBUG src/async_injection.cpp 45
+
+Tue May 13 12:42:37 2025
+=> AsyncInjectionTask: Ctor: DEBUG src/async_injection.cpp 45
+
+Tue May 13 12:42:37 2025
+=> AsyncInjection: Ctor: DEBUG src/async_injection.cpp 13
+
+Tue May 13 12:42:37 2025
+=> Scheduler::AddTask: INFO src/scheduler.cpp 34
+
+Tue May 13 12:42:37 2025
+=> AsyncInjection: Ctor: DEBUG src/async_injection.cpp 13
+
+Tue May 13 12:42:37 2025
+=> Scheduler::AddTask: INFO src/scheduler.cpp 34
+
